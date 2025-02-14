@@ -1,0 +1,10 @@
+[package]
+name = "yubihsm_connect_container"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yubihsm = { version = "0.42.1", features = ["http-server", "usb", "passwords"] }
+anyhow = "1.0.95"
